@@ -45,5 +45,10 @@ public class Persona {
         return barrio;
     }
     
+    public String toString(){
+        String g = String.format("La persona con los datos: %s(%s);pertenece al barrio: %s",nombre,cedula,barrio);
+        
+        return g;
+    }
     
 }

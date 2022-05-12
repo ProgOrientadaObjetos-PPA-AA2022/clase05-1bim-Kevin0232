@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paqueteuno;
+package paquete001;
 
 /**
  *
@@ -24,6 +24,13 @@ public class Ejecutor {
                 + "Unidad de DVD: %s\n",
                 computadora.obtenerTipoProcesador(),
                 computadora.obtenerUnidadDvd().obtenerMarca());
+        
+        System.out.println("----------------------------------");
+        UnidadDVD d = computadora.obtenerUnidadDvd();
+        System.out.printf("Computadora:\nProcesador: %s\n"
+                + "Unidad de DVD: %s\n",
+                computadora.obtenerTipoProcesador(),
+                d);
     }
 
 }

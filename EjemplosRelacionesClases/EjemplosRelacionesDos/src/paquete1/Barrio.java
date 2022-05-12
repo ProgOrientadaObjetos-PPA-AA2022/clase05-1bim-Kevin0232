@@ -24,5 +24,10 @@ public class Barrio {
     public String obtenerNombre(){
         return nombre;
     }
-    
+    public String toString(){
+        
+        String g = String.format("%s",nombre);
+        
+        return g;
+    }
 }
